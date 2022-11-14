@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Score Board</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="home">
+                <h1 >Home</h1>
+            </div>
+            <div class="score-cnt">
+                <h2 class="score-text" id="home-count">000</h2>
+            </div>
+            <div class="btn-col">
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addHomeOne()">+1</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addHomeTwo()">+2</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addHomeThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="home">
+                <h1 >Guest</h1>
+            </div>
+            <div class="score-cnt">
+                <h2 class="score-text" id="guest-count">000</h2>
+            </div>
+            <div class="btn-col">
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addGuestOne()">+1</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addGuestTwo()">+2</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn-1" onclick="addGuestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
